@@ -26,4 +26,4 @@ Roboto será la tipografía estándar, es decir, la que usaremeos para casi todo
 
 En todas las páginas que no sean la principal, pretendemos tener en todo momento un header que disponga de una barra de navegaciones para acceder a todas las diferentes páginas del sitio web, el logo servirá como botón para volver a la página de inicio.
 
-![Logo](https://i.gyazo.com/e7b5094bbd9d9cc738389503e61c1970.png)
+![Logo](https://i.gyazo.com/e7b5094bbd9d9cc738389503e61c1970.png){width=250}
