@@ -4,13 +4,13 @@
 
 ![Paleta de colores](https://i.gyazo.com/6b3af66d0c202b239124e0bb815373fa.png)
 
-'#FFFFFF' Blanco
-'#C4D5D5' Pistachio Pudding 
-'#6F8E74' Verde Sombra
-'#A4B509' Amarillo Verdoso Sombra
-'#444003' Amarillo Sombra Oscuro
-'#162607' Verde Sombra Oscuro
-'#A15636' Rojo Anaranjado Sombra
+'#FFFFFF' Blanco  
+'#C4D5D5' Pistachio Pudding  
+'#6F8E74' Verde Sombra  
+'#A4B509' Amarillo Verdoso Sombra  
+'#444003' Amarillo Sombra Oscuro  
+'#162607' Verde Sombra Oscuro  
+'#A15636' Rojo Anaranjado Sombra  
 
 Hemos elegidos estos colores por estar presentes en la naturaleza que combinan entre sí.
 
