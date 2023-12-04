@@ -1,4 +1,4 @@
-## **Proyecto colaborativo hecho por Jonnathan León Canto y Jorge Coronil Villalba**
+## **Proyecto colaborativo hecho por [Jonnathan León Canto](https://github.com/jleocan773) y [Jorge Coronil Villalba](https://github.com/Jcorvil)**
 
 # 1. Guía de Estilos
 
@@ -49,6 +49,22 @@ Roboto será la tipografía estándar, es decir, la que usaremeos para casi todo
 # 2. Diseño
 
 ## 2.1 Wireframing de la web
+
+- Landing Page
+
+[](https://gyazo.com/1d7a244a8e4e55879efaccf36683e8ad)
+
+- Contacto & únete
+
+[](https://gyazo.com/1264e5e70f7d738fd86b15288c102bc4)
+
+- Nosotros
+
+[](https://gyazo.com/9e59cccf3721c44e110bf8958cbc5dbf)
+
+- Productos
+
+[](https://gyazo.com/897206834a5b172ff49ccbf97c25df5f)
 
 
 
