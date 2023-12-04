@@ -53,4 +53,26 @@ Roboto será la tipografía estándar, es decir, la que usaremeos para casi todo
 
 
 ---
-## 2.2 [Enlace al proyecto de figma AQUÍ](https://www.figma.com/file/VQ3EeotOWF0xCNFa3pgbZN/Plantilla?type=design&node-id=0%3A1&mode=design&t=wnwFp9Q3xGqeGlXo-1)
+## 2.2 Enlace al proyecto FIGMA
+
+- [AQUÍ](https://www.figma.com/file/VQ3EeotOWF0xCNFa3pgbZN/Plantilla?type=design&node-id=0%3A1&mode=design&t=wnwFp9Q3xGqeGlXo-1)
+
+# 3. Recursos
+
+## 3.1. Lenguajes usados
+
+Los lenguajes usados en nuestro proyecto son:
+- **HTML**.
+- **CSS**. 
+- **Javascript**: Usado en la parte de log-in y registro de la página web.   
+
+## 3.2. Tecnologías usadas
+
+Las tecnologías usadas en nuestro proyecto son:
+- **npm**: Instalación de otras tecnologías como Parcel y SCSS.
+- **SCSS**: Mejor uso del css de nuestra web, permitiendo el uso de variables y funciones.  
+- **Parcel**: Añade varias funcionalidades a SCSS.
+    - Soporte nativo SCSS.
+    - Transpilación automática, realiza la compilación automáticamente.
+    - Recarga en caliente, permitiendo ver los cambios a tiempo real.
+    - Optimización.
