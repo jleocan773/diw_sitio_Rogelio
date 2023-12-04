@@ -52,19 +52,19 @@ Roboto será la tipografía estándar, es decir, la que usaremeos para casi todo
 
 - Landing Page
 
-[](https://gyazo.com/1d7a244a8e4e55879efaccf36683e8ad)
+![](https://gyazo.com/1d7a244a8e4e55879efaccf36683e8ad)
 
 - Contacto & únete
 
-[](https://gyazo.com/1264e5e70f7d738fd86b15288c102bc4)
+![](https://gyazo.com/1264e5e70f7d738fd86b15288c102bc4)
 
 - Nosotros
 
-[](https://gyazo.com/9e59cccf3721c44e110bf8958cbc5dbf)
+![](https://gyazo.com/9e59cccf3721c44e110bf8958cbc5dbf)
 
 - Productos
 
-[](https://gyazo.com/897206834a5b172ff49ccbf97c25df5f)
+![](https://gyazo.com/897206834a5b172ff49ccbf97c25df5f)
 
 
 
