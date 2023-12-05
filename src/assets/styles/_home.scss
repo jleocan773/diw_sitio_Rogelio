@@ -18,6 +18,9 @@ body {
   line-height: 24px;
   background-color: $uoc-bg;
   color: $uoc-corporate;
+  background-image: url('../images/family.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
 }
 
 .uoc-container {
