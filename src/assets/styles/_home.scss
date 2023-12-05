@@ -7,7 +7,7 @@ a {
   color: cornflowerblue;
 }
 
-body {
+.body__main--texto {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -23,15 +23,28 @@ body {
   background-repeat: no-repeat;
 }
 
-.uoc-container {
-  max-width: 800px;
-  margin: auto;
+.body__texto-container {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos a los extremos */
+  width: 100%;
+  max-width: 1200px; /* O ajusta según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.body__texto--izquierda,.body__texto--derecha {
+  width: 48%; /* O ajusta según tus necesidades, esto deja un pequeño espacio de separación */
   padding: 2rem;
-  border-radius: 2rem;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra negra */
+}
+
+.body__texto--izquierda {
+  text-align: left;
+  color: white;
+}
+
+.body__texto--derecha {
+  text-align: right;
+  color: white;
 }
 
 .uoc-logo {
