@@ -1,14 +1,19 @@
-footer div {
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #6F8E74;
-}
+    background-color: #6f8e74;
+  }
 
-footer a {
-    color: #FFFFFF;
-}
-
-footer ul{
+  a {
+    color: #ffffff;
+  }
+  ul {
     list-style: none;
+  }
 }

@@ -1,8 +1,8 @@
 {
-  "name": "uoc-boilerplate",
-  "version": "3.7.0",
+  "name": "diw_sitio_rogelio",
+  "version": "1.0.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "Página para el sitio de Rogelio",
   "scripts": {
     "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
@@ -25,9 +25,13 @@
     "type": "git",
     "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
   },
-  "author": {
-    "name": "Jonathan, Jorge",
-    "git": "https://github.com/jleocan773/diw_sitio_Rogelio"
+  "author1": {
+    "name": "Jorge Coronil Villalba",
+    "email": "https://github.com/jcorvil/"
+  },
+  "author2": {
+    "name": "Jonathan León Canto",
+    "email": "https://github.com/jleocan773/"
   },
   "license": "MIT",
   "bugs": {
