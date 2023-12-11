@@ -1,3 +1,10 @@
+
+
+@font-face {
+	font-family: "ZombieHolocaust";
+	src: url("fonts/Zombie_Holocaust.ttf") format("truetype");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +12,10 @@
 a {
   text-decoration: none;
   color: cornflowerblue;
+}
+
+body {
+  margin: 0;
 }
 
 .body__main--texto {
@@ -18,23 +29,24 @@ a {
   line-height: 24px;
   background-color: $uoc-bg;
   color: $uoc-corporate;
-  background-image: url('../images/family.jpg');
-  background-size: cover; 
+  background-image: url("../images/family2blur.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .body__texto-container {
   display: flex;
-  justify-content: space-between; /* Distribuye los elementos a los extremos */
+  justify-content: space-between;
   width: 100%;
-  max-width: 1200px; /* O ajusta según tus necesidades */
-  margin: 0 auto; /* Centra el contenedor en la página */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.body__texto--izquierda,.body__texto--derecha {
-  width: 48%; /* O ajusta según tus necesidades, esto deja un pequeño espacio de separación */
+.body__texto--izquierda,
+.body__texto--derecha {
+  width: 48%;
   padding: 2rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra negra */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .body__texto--izquierda {
@@ -46,5 +58,3 @@ a {
   text-align: right;
   color: white;
 }
-
-
