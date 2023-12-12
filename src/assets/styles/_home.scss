@@ -1,8 +1,8 @@
 @import url(https://github.com/jleocan773/diw_sitio_Rogelio/blob/main/src/assets/fonts/GochiHand-Regular.ttf);
 
 @font-face {
-	font-family: "GochiHand-Regular";
-	src: url("../fonts/GochiHand-Regular.ttf") format("truetype");
+  font-family: "GochiHand-Regular";
+  src: url("../fonts/GochiHand-Regular.ttf") format("truetype");
 }
 
 * {
@@ -17,6 +17,19 @@ a {
 body {
   margin: 0;
   grid-template-columns: repeat(12, 1fr);
+}
+
+.zonaBotones {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid beige;
+  a {
+    font-size: 6em;
+    padding: 5px;
+    color: white;
+    border-radius: 50px;
+    background-color: $color-verdeLima;
+  }
 }
 
 .body__main--texto {
@@ -56,7 +69,7 @@ body {
   text-align: right;
   max-width: 35%;
 
-  a{
+  a {
     padding: 5px;
     color: white;
     border-radius: 50px;
