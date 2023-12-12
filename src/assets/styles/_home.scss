@@ -16,17 +16,15 @@ a {
 
 body {
   margin: 0;
+  grid-template-columns: repeat(12, 1fr);
 }
 
 .body__main--texto {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin: 0;
-  padding: 0;
   font-family: $font-family-sans-serif;
   font-size: 16px;
-  line-height: 24px;
   background-color: $uoc-bg;
   color: $uoc-corporate;
   background-image: url("../images/family2blur.png");
@@ -36,28 +34,32 @@ body {
 
 .body__texto-container {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
 }
 
 .body__texto--izquierda,
 .body__texto--derecha {
-  margin-top: 30%;
-  width: 100%;
-  padding: 2rem;
-  font-size: 5em;
+  font-size: 6em;
   color: white;
   font-family: "GochiHand-Regular";
+  text-shadow: 2px 2px 4px black;
 }
 
 .body__texto--izquierda {
   text-align: left;
-  color: white;
+  max-width: 30%;
 }
 
 .body__texto--derecha {
   text-align: right;
-  color: white;
+  max-width: 35%;
+
+  a{
+    padding: 5px;
+    color: white;
+    border-radius: 50px;
+    background-color: $color-verdeLima;
+  }
 }
