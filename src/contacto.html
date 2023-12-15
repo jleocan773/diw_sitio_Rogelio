@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/styles/main.scss"
+        />
+
+        <title>Green Field</title>
+    </head>
+
+    <body>
+        <include src="./views/header.html"></include>
+        <main class="body__main--contenido">
+            <div class="body__contenido--container">
+                <div class="body__contenido--donaciones">
+                    <!-- Contenido de donaciones -->
+                    <p>
+                        Nuestra empresa depende de donaciones para seguir
+                        funcionando. Por favor, ¡ayúdanos a seguir mejorando el
+                        mundo! <br />
+                        <br />
+                        Dona aquí de forma anónima:
+                    </p>
+                    <input type="number" />
+                    <button>Donar</button>
+                </div>
+                <div class="body__contenido--login">
+                    <!-- Contenido de login -->
+                    <div class="login__info">
+                        <p>¡Únete a nosotros!</p>
+                        <div>
+                            <h4>Usuario</h4>
+                            <input type="text" />
+                            <h4>Contraseña</h4>
+                            <input type="password" />
+                            <p>
+                                O crea una nueva cuenta
+                                <a href="contactoRegister.html">aqui</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <include src="./views/footer.html"></include>
+        <script type="module" src="./assets/scripts/main.js"></script>
+    </body>
+</html>
