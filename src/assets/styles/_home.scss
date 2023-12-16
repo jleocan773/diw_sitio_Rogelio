@@ -3,11 +3,17 @@
   justify-content: space-evenly;
   border-bottom: 1px solid beige;
   a {
-    font-size: 6em;
+    font-size: 3em;
+    font-family: Nature-Green;
     padding: 5px;
-    color: white;
-    border-radius: 50px;
-    background-color: $color-verdeLima;
+    color: $color-verdeCamuflaje;
+    border-bottom: 5px dotted $color-verdeNeutro;
+    margin-bottom: 10px;
+  }
+  a:hover {
+    box-sizing: border-box;
+    transform: scale(1.1);
+    transition: 0.2s linear;
   }
 }
 

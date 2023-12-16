@@ -1,6 +1,46 @@
 input:invalid {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 input:valid {
-    border: 1px solid green;
+  border: 1px solid green;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+input {
+  height: 2em;
+  border-radius: 5px;
+}
+
+#botonesEnvio {
+    
+  a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(61, 161, 255);
+    color: white;
+    padding: 1em;
+    border-radius: 15px;
+  }
+}
+
+.body__register--info {
+  display: grid;
+  background: rgba(196, 213, 197, 0.4);
+  padding: 2em;
+  justify-content: center;
+
+  div {
+    padding: 1em;
+
+    #inputUsuario,
+    #inputPass,
+    #inputPassRepeat,
+    #inputFechaNac,
+    #inputEmail {
+      display: block;
+      width: 100%;
+    }
+  }
 }

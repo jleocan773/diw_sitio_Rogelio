@@ -16,6 +16,8 @@
     <body>
         <include src="./views/header.html"></include>
         <main class="body__main--register">
+
+            <!-- #### Formulario de Registro #### -->
             <form class="body__register--info">
                 <div>
                     <label for="inputUsuario" class="form-label"
@@ -81,14 +83,24 @@
                         required
                     />
                 </div>
-                <div>
-                    <input type="checkbox" name="terminos" required /> Acepto
-                    los <a href="#">términos y condiciones</a>
-                    <input type="checkbox" name="terminos" /> Quiero recibir
-                    correos con las novedades del sitio.
+
+                <!-- #### Terminos y condiciones y botones #### -->
+                <div id="terminosYnovedades">
+                    <p>
+                        <input type="checkbox" name="terminos" required />
+                        Acepto los <a href="#"> términos y condiciones</a>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="terminos" /> Quiero recibir
+                        correos con las novedades del sitio.
+                    </p>
                 </div>
-                <a href="#">Enviar</a>
-                <a href="contacto.html">Cancelar</a>
+
+                <div id="botonesEnvio">
+                    <a href="#">ENVIAR</a>
+                    <a href="contacto.html">CANCELAR</a>
+                </div>
+
             </form>
         </main>
         <include src="./views/footer.html"></include>
