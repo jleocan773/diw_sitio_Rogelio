@@ -4,13 +4,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 50% 100vh;
-
 }
 
 .body__contenido--container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-
 }
 
 .body__contenido--donaciones {
@@ -19,7 +17,7 @@
   border-radius: 50px;
   color: black;
   font-size: 35px;
-  font-family:sans-serif;
+  font-family: sans-serif;
   grid-column: 2/6;
   text-align: center;
   margin-top: 5em;
@@ -30,7 +28,7 @@
     height: 2em;
     margin-bottom: 25px;
   }
-  button{
+  button {
     padding: 5px;
   }
 }
@@ -48,6 +46,18 @@
     background: rgba(161, 86, 54, 0.3);
     width: 40%;
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 20px;
+    border: 1px solid $color-arcilla;
+
+    .enviarLogin {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      background-color: $color-verdeNeutro;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    #inputPass {
+      margin-bottom: 10px;
+    }
   }
 }
